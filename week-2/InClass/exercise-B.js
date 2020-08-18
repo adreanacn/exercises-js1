@@ -7,3 +7,5 @@ function boolChecker(bool) {
 }
 
 boolChecker(true);
+
+console.log(boolChecker(1));

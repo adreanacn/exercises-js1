@@ -1,0 +1,1 @@
+let rsultado = true;
