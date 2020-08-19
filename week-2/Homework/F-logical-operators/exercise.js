@@ -14,6 +14,19 @@ var cssLevel = 4;
 var htmlLevelAbove5;
 var cssLevelAbove5;
 
+var num = 5;
+
+function htmlLevelAbove5(num) {
+
+  if (htmlLevel >= num) {
+    return true;
+  }
+  else (htmlLevel <= num)
+  return false;
+}
+
+
+
 // Finish the next two statement
 // Use the previous variables and logical operators
 // Do not "hardcode" the answers
@@ -32,7 +45,7 @@ console.log(
   cssOrHtmlAbove5
 );
 
-/* 
+/*
   EXPECTED RESULT
   ---------------
   Is Html knowledge above 5? true
