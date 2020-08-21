@@ -6,10 +6,20 @@
   - if 50 or higher then return "passed"
 
 */
+var grade1 = 49;
+var grade2 = 50;
+var grade3 = 100;
 
-function studentPassed(grade) {
+function studentPassed(grade1) {
+  if (grade2 > grade1) {
+    return "failed";
+  } else (grade3 >= grade2)
+  return "passed";
 
 }
+
+
+
 
 /* 
 DO NOT EDIT BELOW THIS LINE
@@ -22,7 +32,7 @@ console.log("'" + grade1 + "': " + studentPassed(grade1))
 console.log("'" + grade2 + "': " + studentPassed(grade2))
 console.log("'" + grade3 + "': " + studentPassed(grade3))
 
-/* 
+/*
 EXPECTED RESULT
 ---------------
 '49': failed
