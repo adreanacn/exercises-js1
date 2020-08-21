@@ -6,9 +6,32 @@
   - if number is more or equal to zero, return the word "positive"
 */
 
-function negativeOrPositive(number) {
+
+var number1 = 5;
+var number2 = -1;
+
+function negativeOrPositive(number1) {
+  if (number1 >= number3) {
+    return "positive";
+  } else (number3 < number2)
+  return "negative";
 
 }
+
+
+/* 
+function numberChecker(num) {
+  if (num > 20) {
+    return `${num} is greater than 20`;
+  } else if (num === 20) {
+    return `${num} is equal to 20`;
+  } else if (num < 20) {
+    return `${num} is less than 20`;
+  } else {
+    return `${num} isn't even a number :(`;
+  }
+}
+*/
 
 /* 
   DO NOT EDIT BELOW THIS LINE
@@ -21,7 +44,7 @@ console.log(number1 + " is " + negativeOrPositive(number1));
 console.log(number2 + " is " + negativeOrPositive(number2));
 console.log(number3 + " is " + negativeOrPositive(number3));
 
-/* 
+/*
   EXPECTED RESULT
   ---------------
   5 is positive
