@@ -7,10 +7,31 @@
   - if the mark is 60 or lower but no lower than 50 then the grade is "C"
   - Otherwise the grade is "F"
 */
+var grade1 = 49;
+var grade2 = 90;
+var grade3 = 70;
+var grade4 = 55;
+var grade = 100;
 
-function calculateGrade(mark) {
 
+
+function calculateGrade(grade) {
+  if (grade < 50) {
+    return "F";
+  } else if (grade >= 90) {
+    return "A";
+  } else if (grade >= 70) {
+    return "B";
+  } else if (grade >= 55) {
+    return "C";
+  }
 }
+
+
+
+
+
+
 
 /* 
 DO NOT EDIT BELOW THIS LINE
@@ -25,11 +46,11 @@ console.log("'" + grade2 + "': " + calculateGrade(grade2));
 console.log("'" + grade3 + "': " + calculateGrade(grade3));
 console.log("'" + grade4 + "': " + calculateGrade(grade4));
 
-  /* 
-  EXPECTED RESULT
-  ---------------
-  '49': F
-  '90': A
-  '70': B
-  '55': C
-  */
+/*
+EXPECTED RESULT
+---------------
+'49': F
+'90': A
+'70': B
+'55': C
+*/
