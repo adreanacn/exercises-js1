@@ -13,3 +13,12 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
+
+
+for (let i = 0; i < daysOfWeek.length; i++) {
+  if (daysOfWeek[i].charAt(0) == "T") {
+    const Message = "Day of the week with T: " + daysOfWeek[i];
+    console.log(Message);
+  }
+}
+
