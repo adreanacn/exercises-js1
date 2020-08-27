@@ -4,7 +4,7 @@
 
 var students = ["Omar", "Austine", "Dany", "Swathi", "Lesley", "Rukmini"];
 var group = ["Austine", "Dany", "Swathi", "Daniel"];
-
+var studentsgroup = students.concat(group);
 var groupIsOnlyStudents; // complete this statement
 
 if (groupIsOnlyStudents) {
